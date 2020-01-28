@@ -1,12 +1,15 @@
 # Fetching Running Config
 
-A multithreaded Python Script for fetching running configurationso over SSH from multiple Cisco Devices
+A multithreaded Python Script based on Netmiko for fetching running configurations over SSH from multiple Cisco Devices
 Configurations will be saved to file with ip and current time as file name
-And optional feature for emailing confirmation to user
+and optional feature for emailing confirmation to user.
 
-  # Usage
-Give Network Device parameters in JSON file to add Devices
-
+  ## Usage
+Give Network Device parameters in JSON file to add Devices.
+- SSH credentials
+- ip
+- enable pass('secret') for users less Priviledge than 15, 
+remove 'secret' row for user with Priviledge level 15
 
    "Device-1":{
         "device_type": "cisco_ios",
@@ -17,8 +20,15 @@ Give Network Device parameters in JSON file to add Devices
         "fast_cli": false
       }
       
-      
-  # Installation
+   
+Give email Credentials in script
+
+
+     email_user = 'gmail_id(from)'
+     email_password = 'gmail_generated_password_for_app'
+     email_send = 'email_id(to)'
+
+  ## Installation
 
 1. Requires Python 3.6 or higher
 
