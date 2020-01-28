@@ -96,9 +96,10 @@ U_want_mail=want_mail.upper()
 
 if U_want_mail == 'Y':
     print('! '*20 + '\n')
-    email_user = 'talhajaved701@gmail.com'
-    email_password = 'sbmmhquirfdjvfep'
-    email_send = 'talhajaved700@gmail.com'
+    
+    email_user = 'gmail_id(from)'
+    email_password = 'gmail_generated_password_for_app'
+    email_send = 'email_id(to)'
     
     print('****Mailing to: ' + email_send+'****')
     
