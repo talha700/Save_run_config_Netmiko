@@ -67,14 +67,14 @@ def backup_conf(dev):
         print('='* 50)
 
         write_to_file(msg1)
-        pass
+        return
     except:
         msg1=(f"Error While Connecting to {my_dev} !" + '\n')
         print(msg1)
         print('=' * 50)
 
         write_to_file(msg1)
-        pass
+        return
 
 #Parsing JSON file
 with open ('my_devices.json','r') as f:
