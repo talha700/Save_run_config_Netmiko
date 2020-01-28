@@ -1,0 +1,39 @@
+{
+    "switch-1":{
+        "device_type": "cisco_ios",
+        "ip": "192.168.126.130",
+        "username":"cisco",
+        "password":"admin",
+        "fast_cli": false
+    },
+    "switch-2":{
+        "device_type": "cisco_ios",
+        "ip": "192.168.126.140",
+        "username":"cisco",
+        "password":"admin",
+        "secret" : "admin",
+        "fast_cli": false
+    },
+    "switch-3":{
+        "device_type": "cisco_ios",
+        "ip": "192.168.126.150",
+        "username":"cisco",
+        "password":"admin",
+        "fast_cli": false
+    },
+    "switch-4":{
+        "device_type": "cisco_ios",
+        "ip": "192.168.126.160",
+        "username":"cisco",
+        "password":"admin",
+        "fast_cli": false
+    },
+    "switch-5":{
+        "device_type": "cisco_ios",
+        "ip": "192.168.126.170",
+        "username":"cisco",
+        "password":"admin",
+        "secret" : "admin",
+        "fast_cli": false
+    }
+}
