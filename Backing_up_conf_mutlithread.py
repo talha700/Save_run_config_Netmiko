@@ -10,7 +10,7 @@ from email import encoders
 import os.path
 from os import path
 
-#Check if 'Stored Configs Configs Configs' folder &'confirm.txt' file exists
+#Check if 'Stored Configs' folder &'confirm.txt' file exists
 def Check():
     
     if  path.exists('Stored Configs') is True:
