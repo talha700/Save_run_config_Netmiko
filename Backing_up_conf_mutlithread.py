@@ -128,10 +128,8 @@ if U_want_mail == 'Y':
 else:
     pass
 
-#Removing Contents of "confirm.txt"
-empty_the_file=''
-with open('confirm.txt','w') as w:
-    w.write(empty_the_file)
+#Removing "confirm.txt"
+os.remove("confirm.txt")
 
 #Printing Total execution time of Program
 end_timer=time.perf_counter()
