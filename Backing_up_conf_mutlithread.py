@@ -12,10 +12,10 @@ import os
 #Check if 'Stored Configs' folder &'confirm.txt' file exists
 def Check():
     
-    if  path.exists('Stored Configs') is True:
+    if  os.path.exists('Stored Configs') is True:
         pass
     else:
-        os.mkdir('Stored Configs')
+        os.path.mkdir('Stored Configs')
     if path.exists('confirm.txt') is True:
         pass
     else:
