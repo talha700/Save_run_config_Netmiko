@@ -8,8 +8,7 @@ and optional feature for emailing confirmation to user.
 Give Network Device parameters in JSON file to add Devices.
 - SSH credentials
 - ip
-- enable pass('secret') for users less Priviledge than 15, 
-remove 'secret' row for user with Priviledge level 15
+- enable pass('secret') for users less Priviledge than 15
 
    "Device-1":{
         "device_type": "cisco_ios",
