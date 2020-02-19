@@ -14,4 +14,5 @@
         "password":"__password__",
         "secret" : "_enable_pass",
         "fast_cli": false
+    }
 }
